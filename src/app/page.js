@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -6,24 +6,28 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
+          СтЕМ
+          <br />
+          вирішення твоїх проблем
         </p>
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://stem-shop.netlify.app/StEM"
             target="_blank"
             rel="noopener noreferrer"
           >
             By{" "}
-            <Image
+            {/* <Image
               src="/vercel.svg"
               alt="Vercel Logo"
               className={styles.vercelLogo}
               width={100}
               height={24}
               priority
-            />
+            /> */}
+            <h2>
+              <span>СтЕМ</span>
+            </h2>
           </a>
         </div>
       </div>
@@ -37,7 +41,6 @@ export default function Home() {
           height={37}
           priority
         /> */}
-        <h1 className={styles.logo}>СтЕМ</h1>
       </div>
 
       <div className={styles.grid}>
