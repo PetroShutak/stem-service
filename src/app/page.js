@@ -25,9 +25,7 @@ export default function Home() {
               height={24}
               priority
             /> */}
-            <h2>
-              <span>СтЕМ</span>
-            </h2>
+            <span className={styles.vercelLogo}>СтЕМ</span>
           </a>
         </div>
       </div>
